@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard | AIU Global Opportunities Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="dashboards">
+    <div class="page-backdrop"></div>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html"><img src="aiu-logo.png" alt="AIU logo" class="brand-logo" /><span class="brand-copy"><strong>AIU Global Opportunities Hub</strong><small>International pathways, research calls, and student growth</small></span></a>
+        <nav class="nav">
+          <a href="index.html" data-nav="home">Home</a><a href="about.html" data-nav="about">About</a><a href="how-it-works.html" data-nav="how">How It Works</a><a href="opportunities.html" data-nav="opportunities">Opportunities</a><a href="internships.html" data-nav="internships">Internships</a><a href="exchange.html" data-nav="exchange">Exchange</a><a href="research.html" data-nav="research">Research</a><a href="dashboards.html" data-nav="dashboards">Dashboards</a>
+        </nav>
+        <a class="solid-button" href="account.html">Switch Role</a>
+      </div>
+    </header>
+    <main class="site-shell">
+      <section class="hero page-hero">
+        <div class="hero-copy">
+          <div class="breadcrumbs"><a href="index.html">Home</a> / <a href="dashboards.html">Dashboards</a> / Student</div>
+          <h1 id="studentWelcome">Welcome</h1>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="stats-grid dashboard-stats-grid">
+          <article><strong id="studentMatchedCount">12</strong><span>matched opportunities</span></article>
+          <article><strong id="studentApplicationsCount">4</strong><span>applications in progress</span></article>
+          <article><strong id="studentProfileCount">20%</strong><span>profile completion</span></article>
+          <article><strong id="studentDeadlinesCount">3</strong><span>upcoming deadlines</span></article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="split-heading section-heading">
+          <div>
+            <h2>Profile</h2>
+            <p class="section-note student-profile-note">Keep your academic profile complete so the platform can recommend stronger opportunities and faster applications.</p>
+          </div>
+        </div>
+        <div class="student-readiness-layout">
+          <article class="student-panel readiness-card">
+            <div class="readiness-ring readiness-ring--profile" id="profileReadinessRing">
+              <strong id="profileReadinessValue">0%</strong>
+              <span>ready</span>
+            </div>
+            <div class="readiness-copy">
+              <h3>Your profile is nearly complete</h3>
+              <p>Finish the missing items below to unlock more accurate matching for exchange, internship, research, and graduate routes.</p>
+            </div>
+          </article>
+          <article class="student-panel checklist-card">
+            <p class="card-label checklist-label-red">Completion checklist</p>
+            <ul class="student-checklist" id="studentChecklist">
+              <li data-checklist-key="cv">
+                <span></span>
+                <div class="checklist-item-copy">
+                  <strong>CV uploaded</strong>
+                  <small id="status-cv">Not uploaded yet</small>
+                </div>
+                <label class="checklist-upload">
+                  <input type="file" data-checklist-input="cv" />
+                  <span>Upload</span>
+                </label>
+              </li>
+              <li data-checklist-key="gpa">
+                <span></span>
+                <div class="checklist-item-copy">
+                  <strong>GPA transcript uploaded</strong>
+                  <small id="status-gpa">Not uploaded yet</small>
+                </div>
+                <label class="checklist-upload">
+                  <input type="file" data-checklist-input="gpa" />
+                  <span>Upload</span>
+                </label>
+              </li>
+              <li data-checklist-key="language">
+                <span></span>
+                <div class="checklist-item-copy">
+                  <strong>Language certificate added</strong>
+                  <small id="status-language">Not uploaded yet</small>
+                </div>
+                <label class="checklist-upload">
+                  <input type="file" data-checklist-input="language" />
+                  <span>Upload</span>
+                </label>
+              </li>
+              <li data-checklist-key="skills">
+                <span></span>
+                <div class="checklist-item-copy">
+                  <strong>Skills portfolio uploaded</strong>
+                  <small id="status-skills">Not uploaded yet</small>
+                </div>
+                <label class="checklist-upload">
+                  <input type="file" data-checklist-input="skills" />
+                  <span>Upload</span>
+                </label>
+              </li>
+              <li data-checklist-key="passport">
+                <span></span>
+                <div class="checklist-item-copy">
+                  <strong>Passport and ID documents updated</strong>
+                  <small id="status-passport">Not uploaded yet</small>
+                </div>
+                <label class="checklist-upload">
+                  <input type="file" data-checklist-input="passport" />
+                  <span>Upload</span>
+                </label>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="split-heading section-heading">
+          <div>
+            <h2>Application tracking</h2>
+            <p class="section-note student-profile-note">Follow each opportunity from draft submission to review and final decision without losing track of the next action.</p>
+          </div>
+        </div>
+        <div class="student-tracker-grid" id="studentTrackerGrid"></div>
+      </section>
+
+      <section class="section-block">
+        <div class="split-heading section-heading">
+          <div>
+            <h2>Recommended pathways</h2>
+            <p class="section-note student-profile-note">Personalized suggestions appear here based on your major, profile details, readiness level, and saved interests.</p>
+          </div>
+        </div>
+        <div class="student-recommendations" id="studentRecommendations"></div>
+      </section>
+
+      <section class="section-block">
+        <div class="split-heading section-heading">
+          <div>
+            <h2>Daily student tools</h2>
+            <p class="section-note student-profile-note">This area gathers the actions students use most often so progress, saved items, and reminders stay visible.</p>
+          </div>
+        </div>
+        <div class="student-tools-layout">
+          <article class="student-panel tools-card" id="studentToolsCard"></article>
+          <article class="student-panel updates-card" id="studentUpdatesCard"></article>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
