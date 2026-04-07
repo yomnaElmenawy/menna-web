@@ -1,0 +1,166 @@
+• Website Planning Template
+• CSE211 - Web Programming Project
+• 1. Website Goal
+The AIU Global Opportunities Hub website's primary goal is to act as a centralized, smart platform that organizes, promotes, and makes it easier for students at Alamein International University (AIU) to access both internal and international academic and professional development opportunities.
+More precisely, it serves mainly as a educational website with important elements of a inspirational showcase and application management portal. It combines:
+
+• Educational Aspect:
+A clear presentation and explanation of the opportunities (international internships, research programs, exchange semesters, dual/joint degrees with partners like the University of Louisville and James Madison University, as well as internal AIU faculty-led research projects).
+
+• Interactive Aspect:
+Students can register, create profiles (CV, GPA, and skills), search and filter opportunities, submit applications directly, monitor their progress, and receive matches and notifications.
+
+• Efficiency Tools:
+ Faculty and staff can post opportunities and evaluate applications with AI-assisted CV ranking.
+
+• Inspirational component: 
+showcasing actual success stories, student projects, feedbacks, and results from previous participants in order to boost engagement.
+• 2. Target Audience
+• Who will use your website?
+
+Enrolled AIU students looking for local and international opportunities to improve their academic, research, and career profiles are the primary users. AIU professors and faculty who post internal research projects and evaluate applications, as well as administrative personnel (International Office, department administrators) who oversee listings, use the AI CV Analyzer for ranking, and monitor procedures, are considered secondary users.
+
+• Age: Ages 18 to 25
+• Type of users:
+Undergraduate students are pursuing bachelor's degrees in subjects such as business, computer science and artificial intelligence, pharmacy, engineering (including biomedical and mechatronics), etc. 
+
+Professors and faculty members from different AIU faculties oversee research, advertise internal opportunities, and assess applicants. 
+
+The International Relations Office, academic departments, opportunity postings, application reviews, and platform upkeep are all handled by university administrators and staff.
+
+
+• Technical skills: 
+The majority of AIU students are proficient in technology young Egyptians who are at ease using smartphones, social media (Facebook, Instagram, LinkedIn), online forms, email, Google Drive/docs, and simple web navigation. They frequently upload documents (CVs, transcripts), apply digitally, and use university portals and LMS (e.g., for courses, registration). The platform must be user-friendly and mobile-friendly; advanced programming or web development skills are neither required nor expected. Professionals with a moderate level of comfort using web tools for reviews and AI-assisted features, faculty and staff are used to academic and administrative systems (such as email, databases, and Microsoft Office).
+
+• 3. Website Structure (Sitemap)
+• 4. Development Technologies
+• Styling:
+Tailwind CSS – a utility-first CSS framework that allows fast and responsive UI design. It helps maintain consistent styling across the website and works well with modern React applications.
+
+• JavaScript / Interactivity:
+TypeScript with React Hooks – used to manage interactivity, state management, and dynamic user actions such as submitting applications, filtering opportunities, and updating dashboards. TypeScript improves code reliability and maintainability.
+• Tools Used:
+• Figma for UI/UX design and prototyping
+• Git & GitHub for version control and collaboration
+• Supabase for database, authentication, and file storage
+• External AI CV Analyzer API  to analyze uploaded CVs and return match scores
+• Vercel  for deployment and hosting of the website
+
+• 5. Wireframe
+Home page
+• 5. Wireframe
+• about
+• 5. Wireframe
+How it works
+• 5. Wireframe
+• Opportunities Page
+• 5. Wireframe
+Internship Abroad
+• 5. Wireframe
+Exchange Programs
+• 5. Wireframe
+AIU Research Page
+• 5. Wireframe
+Global Collaboration Map
+• 5. Wireframe
+Success Stories
+• 5. Wireframe
+Resources Page
+• 5. Wireframe
+student dashboard
+• 5. Wireframe
+Research Dashboard (for researchers)
+• 5. Wireframe
+Professor / Admin Dashboard
+• 5. Wireframe
+User Account (Login / Register)
+• 6. Website Content
+• Images: Undergraduate Dual/Joint degree
+• 6. Website Content
+• Images: Undergraduate Dual/Joint degree
+• 6. Website Content
+• Images: Graduate Dual Degree
+• 6. Website Content
+• Images: UofL-AIU Summer 2022 Internships
+• 6. Website Content
+• Images: UofL-AIU Summer 2022 Internships
+• 6. Website Content
+• Images: UofL-AIU Summer 2023 Internships
+• 6. Website Content
+• Images: UofL-AIU Summer 2024 Internships
+• 6. Website Content
+• Images: UofL-AIU Summer 2025 Internships
+• 6. Website Content
+• Images: UofL-AIU Summer 2025 Internships
+
+• 6. Website Content
+• Images: UofL-AIU Summer 2025 Internships
+
+• 6. Website Content
+• Images: UofL-AIU Summer 2025 Internships
+
+• 6. Website Content
+• Images: UofL-AIU Summer 2025 Internships
+
+• 6. Website Content
+• Images: UofL-AIU Summer 2025 Internships
+
+• 6. Website Content
+• Images: Virginia Tech 2026 Student Exchange Program
+
+• 6. Website Content
+• Text/Descriptions:
+AIU & UofL Undergraduate Program
+2+ 2 Undergraduate Degrees
+The University of Louisville (UofL) and Alamein International University (AIU) have entered into an agreement to enhance relations between the two universities.   The recently signed transfer agreement describes an undergraduate Bachelor’s degree partnership in which students will complete an undergraduate degree at UofL in a 2+2 program in either Bioengineering or Computer Science Engineering. The partnership is designed so that approximately half of the degree credit hour requirements can be completed through AIU and half through UofL.
+50 % Half of the classes from UofL faculty; half from AIU faculty.
+2 Two years of study in Egypt, two in USA at UofL.
+
+Bioengineering is a relatively new engineering discipline when compared to the long-standing traditions of other fields of engineering. A bioengineer uses traditional engineering skills and tools to analyze and solve problems in biology and medicine. Bioengineers interact with biologists, biochemists, physicians, physiologists, and therapists to design, develop and manufacture instruments, devices, and software, or to develop new procedures to solve clinical problems.
+https://catalog.louisville.edu/undergraduate/majors/bioengineering-bs/
+
+The Bachelor of Science in Computer Science and Engineering degree program is accredited by the Engineering Accreditation Commission (EAC) and Computing Accreditation Commission (CAC) of ABET, www.abet.org.
+https://catalog.louisville.edu/undergraduate/majors/computer-engineering-science-bs/
+
+The University of Louisville (UofL) and Alamein International University (AIU) have entered into an agreement to enhance relations between the two universities.   The recently signed transfer agreement describes an undergraduate Bachelor’s degree partnership in which students will complete an undergraduate degree at UofL in a 2+2 program in either Bioengineering or Computer Science Engineering. The partnership is designed so that approximately half of the degree credit hour requirements can be completed through AIU and half through UofL.
+For approximately the first half of the program, students may complete a designed set of course work while enrolled at AIU.  AIU and UofL have reviewed and tailored these course materials to facilitate an efficient transfer of credits between universities.
+Generally, for the second half of the program, AIU students will apply to UofL and, if accepted, academically transfer to UofL for completion of their degree requirements in Louisville.  Upon acceptance into UofL, applicable and appropriate course credits earned while at AIU will be transferred to UofL and applied towards the current degree flight plan.  The course credits earned at AIU and transferred to UofL must adhere to strict UofL guidelines.  All AIU courses used as transfer credits to UofL, will be reviewed and must be approved by UofL.
+
+After the students have been accepted into UofL and their transfer credits are applied to their degree flight plan, the students will continue their academic progression as UofL students.  Students may complete degree requirements through in person, online or other UofL sponsored course formats as are available and consistent with UofL policy.   While students are enrolled in UofL classes, the students will be responsible for all tuition and fee payments due to UofL.
+Qualified AIU students who are admitted to UofL will pay the tuition and fees as outlined by the UofL Office of the Bursar for international students with the following exceptions:
+• Admitted AIU students under this Agreement will be charged the equivalent of in-state resident tuition rate for all courses taught by the JB Speed School of Engineering, and
+• For all other courses taught by other academic units within UofL, such students will pay 65% of the non-resident tuition rate.
+All other fees will be charged at the prevailing rate according to the current standard fee schedule. When students are on the UofL campus, additional fees may be required by UofL; including, but not limited to, application fee, housing application fee, program fees and course fees, and the international student fee. Any fees, transportation, living expenses, health insurance, medical costs, food and/or any required meal plan, housing, books, and other study cost are to be borne by the students.
+
+• What makes a Bachelor of Science (B.S.) degree from the J.B. Speed School of Engineering at the University of Louisville so special? It starts with their Areas of Study:
+Bioengineering 
+Computer Science and Engineering
+Each of these degree programs is accredited by the Engineering Accreditation Commission (EAC) of ABET.
+Transferring to the University of Louisville
+General transfer application requirements when transferring to Engineering BS degree programs
+Students transferring from AIU to UofL as part of this program will generally have more than 24 credit hours of academic work. As such, part of the admissions requirements are:
+Students must have a minimum grade point average of 2.8 based on the courses transferred into UofL for academic credit.
+Students must have successfully completed courses equivalent to AIU’s MAT 111/112 and CHE 111.
+
+
+• Application Checklist
+Students intending to transfer from AIU to UofL must complete the standard transfer application at the link below.  Information may be uploaded to your application in stages and applications will remain in a “pending” status.  Applications will not be reviewed until all application materials have been received.
+Create an application account at the following link: https://apply.louisville.edu/register/applynow
+• For students transferring from AIU under this program, the Application Type will generally be: TRANSFER STUDENT
+• You are NOT applying to an online program
+• Your classification level when you last attended college would likely be equivalent to a UofL Sophomore (30 – 59 semester hours)
+
+Log into your application account and provide the following: 
+$25 non-refundable application fee (U.S. dollars)
+Academic records from all the secondary schools, universities, colleges or professional schools attended
+Proof of English proficiency
+
+• Evaluation of Transfer Credit
+The Office of Transfer Services  at UofL evaluates transfer credit and academic units advise about courses needed for degree completion after the student has been admitted to the University of Louisville. Transfer work that is college-level, academic in nature and earned at appropriately accredited programs will be accepted and posted as credit earned (i.e., with no grade).  The School of Engineering requires a minimum “D” grade for any transferred course to be accepted as credit toward a degree.
+A transfer student must earn at least sixty (60) semester hours applicable toward the baccalaureate degree in a fully accredited four-year program at a college or university. Students earning baccalaureate degrees are required to complete at least 25 percent of the total credit hours required for the degree at the University of Louisville.  Students earning baccalaureate degrees are also required to complete 30 of their last 36 semester hours at the University of Louisville.
+
+• Computer Recommendation
+Undergraduate and transfer students at the J. B. Speed School of Engineering are recommended to have a mobile computer with an active digital pen meeting the minimum specifications at the link below. Graduate students should have a laptop.
+https://engineering.louisville.edu/academics/computerrequirement/
+
+
